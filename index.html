@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PayFlow - Modern Payment Solutions</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+       <nav>
+  <div class="nav-container">
+
+    <a href="#" class="logo">
+            <i class="fas fa-money-bill-wave"></i>
+            PayFlow
+          </a>
+
+    <ul class="menu" id="menu">
+
+      <!-- PAYMENTS -->
+      <li>
+        <a href="#">Payments <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="mega-menu">
+          <div>
+            <div class="col-title">Accept Payments Online</div>
+            <div class="mega-item"><i class="fas fa-layer-group"></i><div class="item-content"><h4>Payment Aggregator</h4><p>Accept payments easily</p></div></div>
+            <div class="mega-item"><i class="fas fa-credit-card"></i><div class="item-content"><h4>Payment Gateway</h4><p>Website & app payments</p></div></div>
+            <div class="mega-item"><i class="fas fa-link"></i><div class="item-content"><h4>Payment Links</h4><p>Send links & collect money</p></div></div>
+          </div>
+
+          <div>
+            <div class="col-title">Improve Conversions</div>
+            <div class="mega-item"><i class="fas fa-magic"></i><div class="item-content"><h4>Magic Checkout</h4><p>Boost order conversions</p></div></div>
+            <div class="mega-item"><i class="fas fa-repeat"></i><div class="item-content"><h4>Subscriptions</h4><p>Recurring payments</p></div></div>
+          </div>
+
+          <div>
+            <div class="col-title">Accept Worldwide</div>
+            <div class="mega-item"><i class="fas fa-globe"></i><div class="item-content"><h4>International Payments</h4><p>Global currency support</p></div></div>
+            <div class="mega-item"><i class="fas fa-plane"></i><div class="item-content"><h4>Bank Transfers</h4><p>USD, GBP, EUR</p></div></div>
+          </div>
+        </div>
+      </li>
+
+      <!-- BANKING -->
+      <li>
+        <a href="#">Banking+ <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="mega-menu">
+          <div>
+            <div class="col-title">Business Banking</div>
+            <div class="mega-item"><i class="fas fa-rocket"></i><div class="item-content"><h4>RazorpayX</h4><p>Smart business banking</p></div></div>
+            <div class="mega-item"><i class="fas fa-university"></i><div class="item-content"><h4>Current Account</h4><p>Built for startups</p></div></div>
+          </div>
+          <div>
+            <div class="col-title">Automation</div>
+            <div class="mega-item"><i class="fas fa-users"></i><div class="item-content"><h4>Payouts</h4><p>Instant money transfers</p></div></div>
+            <div class="mega-item"><i class="fas fa-arrow-right"></i><div class="item-content"><h4>Vendor Payments</h4><p>AP automation</p></div></div>
+          </div>
+          <div>
+            <div class="col-title">More</div>
+            <div class="mega-item"><i class="fas fa-percentage"></i><div class="item-content"><h4>Tax Payments</h4><p>Pay taxes easily</p></div></div>
+          </div>
+        </div>
+      </li>
+
+      <li><a href="#">Payroll</a></li>
+      <li><a href="#">Engage</a></li>
+      <li><a href="#">Partners</a></li>
+
+      <!-- RESOURCES -->
+      <li>
+        <a href="#">Resources <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="mega-menu">
+          <div>
+            <div class="col-title">Learn</div>
+            <div class="mega-item"><i class="fas fa-book"></i><div class="item-content"><h4>Blog</h4><p>Latest insights</p></div></div>
+            <div class="mega-item"><i class="fas fa-calendar"></i><div class="item-content"><h4>Events</h4><p>Workshops & meets</p></div></div>
+          </div>
+          <div>
+            <div class="col-title">Developers</div>
+            <div class="mega-item"><i class="fas fa-code"></i><div class="item-content"><h4>Docs</h4><p>API guides</p></div></div>
+            <div class="mega-item"><i class="fas fa-plug"></i><div class="item-content"><h4>Integrations</h4><p>Platform plugins</p></div></div>
+          </div>
+          <div>
+            <div class="col-title">Free Tools</div>
+            <div class="mega-item"><i class="fas fa-calculator"></i><div class="item-content"><h4>GST Calculator</h4><p>Quick tax compute</p></div></div>
+            <div class="mega-item"><i class="fas fa-search"></i><div class="item-content"><h4>GSTIN Search</h4><p>Verify numbers</p></div></div>
+          </div>
+        </div>
+      </li>
+
+      <li><a href="#">Pricing</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="#" class="signup-btn">Sign Up</a>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </div>
+
+  </div>
+</nav>
+      </div>
+      <section class="info-bar">
+        <div class="info-left">
+        <div class="world"> 
+          <span class="title">MoneySaver</span>
+          <a href="#" class="blue-link">Export Account</a>
+    </div>
+          <span class="desc">
+            Global cards, Apple Pay, bank transfers. Low fees, local support.
+          </span>
+
+          <a href="#" class="blue-link bold">Sign Up Now</a>
+        </div>
+
+        <div class="info-right">
+          <span class="currency">£</span>
+          <span class="currency">€</span>
+          <span class="currency">$</span>
+          <span class="currency">¥</span>
+          <span class="currency">A$</span>
+          <span class="currency">₴</span>
+        </div>
+      </section>
+    </header>
+
+    <!-- Hero Section with Carousel -->
+    <section class="hero">
+      <!-- Background Shapes -->
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+
+      <div class="container">
+        <div class="carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-slide active">
+              <div class="slide-content">
+                <h1>Powerful Payments Made Simple</h1>
+                <p>
+                  Accept payments, send payouts, and manage your finances with
+                  our modern payment solutions. Fast, secure, and designed for
+                  growth.
+                </p>
+                <div class="slide-buttons">
+                  <a href="#" class="btn btn-primary">Get Started Free</a>
+                  <a href="#" class="btn btn-secondary">Contact Sales</a>
+                </div>
+              </div>
+              <div class="slide-image">
+                <img
+                  src="images/__Instant_Money__Instant_Impact__The_Power_of_India_s_Fintech_Stack-removebg-preview.png"
+                  alt="Payment Dashboard"
+                />
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+              <div class="slide-content">
+                <h1>Global Payment Solutions</h1>
+                <p>
+                  Accept payments from customers worldwide with support for 150+
+                  currencies and multiple payment methods.
+                </p>
+                <div class="slide-buttons">
+                  <a href="#" class="btn btn-primary">Explore Features</a>
+                  <a href="#" class="btn btn-secondary">View Pricing</a>
+                </div>
+              </div>
+              <div class="slide-image">
+                <img
+                  src="images/Business_Vectors_-_Download_Free_High-Quality_Vectors_from_Freepik___Freepik-removebg-preview.png"
+                  alt="Global Payments"
+                />
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+              <div class="slide-content">
+                <h1>Seamless Integration</h1>
+                <p>
+                  Integrate payments into your website or app with our
+                  developer-friendly APIs and SDKs.
+                </p>
+                <div class="slide-buttons">
+                  <a href="#" class="btn btn-primary">Sign Up Now</a>
+                  <a href="#" class="btn btn-secondary">Know More</a>
+                </div>
+              </div>
+              <div class="slide-image">
+                <img
+                  src="images/Ilustração_Desenhada_à_Mão_Para_Pagamento_Com_Cartão_De_Crédito_PNG___Pintado_à_Mão__Cartão_De_Crédito__Pagar_Imagem_PNG_e_PSD_Para_Download_Gratuito-removebg-preview.png"
+                  alt="Developer Tools"
+                />
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="product-bar">
+    <span class="label"><i class="fa-solid fa-grid-2"></i> Looking for a product?</span>
+
+    <div class="options">
+        <a href="#"><i class="fa-solid fa-money-check-dollar"></i> Accept Payments</a>
+        <a href="#"><i class="fa-solid fa-bullseye"></i> Make Payouts</a>
+        <a href="#"><i class="fa-solid fa-briefcase"></i> Start Business Banking</a>
+        <a href="#"><i class="fa-solid fa-credit-card"></i> Get Credit</a>
+        <a href="#"><i class="fa-solid fa-user-gear"></i> Automate Payroll</a>
+        <a href="#"><i class="fa-solid fa-pen"></i> Something else?</a>
+    </div>
+</div>
+      </div>
+      <div class="logo-scroll">
+        <div class="logo-track">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png"
+            alt="google"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            alt="react"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+            alt="nodejs"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png"
+            alt="flutter"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+            alt="ibm"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+            alt="paypal"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+            alt="microsoft"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+            alt="amazon"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+            alt="apple"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+            alt="figma"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            alt="javascript"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+            alt="instagram"
+          />
+          <!-- Duplicate logos for seamless scroll -->
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png"
+            alt="google"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            alt="react"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+            alt="nodejs"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png"
+            alt="flutter"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+            alt="ibm"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+            alt="paypal"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+            alt="microsoft"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+            alt="amazon"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+            alt="apple"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+            alt="figma"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            alt="javascript"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+            alt="instagram"
+          />
+        </div>
+      </div>
+    </section>
+
+      <div class="hero-bg"></div>
+
+  <section class="hero-wrapper">
+    <div class="hero-content">
+      <h1>₹30L+ in exclusive<br>Startup Perks</h1>
+      <p>Get credits, discounts, and tools worth over ₹30 lakh to build and scale your startup faster with Razorpay.</p>
+      <button class="cta-btn">Claim Your Perks Now →</button>
+    </div>
+
+    <div class="cards-container">
+      <div class="benefit-cards">
+        <div class="card">
+          <h3>₹5L AWS Credits</h3>
+          <p>Free cloud hosting for your growing startup</p>
+        </div>
+        <div class="card">
+          <h3>₹3L DigitalOcean</h3>
+          <p>Scalable infrastructure credits</p>
+        </div>
+        <div class="card">
+          <h3>₹2L Segment Credits</h3>
+          <p>Customer data platform for free</p>
+        </div>
+        <div class="card">
+          <h3>Free Tools & SaaS</h3>
+          <p>Freshdesk, Zoho, HubSpot & more</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="finance-section">
+    <h1 class="finance-title">One platform for all your <span class="highlight-green">financial needs</span></h1>
+    <p style="font-size:1rem; color:#555; max-width:500px; margin:10px;">
+      Accept payments, make payouts, manage payroll, get loans — everything in one place.
+    </p>
+  </section>
+
+  <!-- new card sticky one  -->
+    <section class="payment-sections-container">
+        <div class="payment-container">
+            <div class="section-navigation" id="sectionNav">
+                <h3 class="section-nav-title"><i class="fas fa-credit-card"></i> Accept Payments</h3>
+                <ul class="section-nav-list">
+                    <li class="section-nav-item " data-target="top-products">
+                        <i class="fas fa-layer-group"></i> Top Products
+                    </li>
+                    <li class="section-nav-item" data-target="payment-methods">
+                        <i class="fas fa-wallet"></i> Payment Methods
+                    </li>
+                    <li class="section-nav-item" data-target="payment-gateway">
+                        <i class="fas fa-shield-alt"></i> Payment Gateway
+                    </li>
+                    <li class="section-nav-item" data-target="payment-button">
+                        <i class="fas fa-code"></i> Payment Button
+                    </li>
+                    <li class="section-nav-item" data-target="payment-links">
+                        <i class="fas fa-link"></i> Payment Links
+                    </li>
+                </ul>
+            </div>
+
+            <!-- TOP PRODUCTS -->
+            <section class="payment-section" id="top-products">
+                <div class="section-header">
+                    <h2 class="section-title">Accept Payments</h2>
+                    <p class="section-description">Our most popular payment solutions designed to help your business grow</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/fa859d802eeb217fc6c0b1674e0ec1f5.jpg" alt="Payment Gateway">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Payment Gateway</h3>
+                            <p class="card-text">Online payments on website and apps with our powerful payment gateway.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/fc4ec7702b1536be401d97520df003ff.jpg" alt="Payment Button">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Payment Button</h3>
+                            <p class="card-text">Accept payments via links, QR codes, etc. without any coding required.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/82db1f2a25b21dc1a0da408222ad64b1.jpg" alt="Payment Links">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Payment Links</h3>
+                            <p class="card-text">Generate and share payment links instantly with customers.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/images (3).jfif" alt="RazorpayX POS">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">RazorpayX POS</h3>
+                            <p class="card-text">Accept payments in-store with ease using our POS solution.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PAYMENT METHODS -->
+            <section class="payment-section" id="payment-methods">
+                <div class="section-header">
+                    <h2 class="section-title">Make Payouts</h2>
+                    <p class="section-description">Automate payouts and disbursements with our comprehensive solutions</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/__Instant_Money__Instant_Impact__The_Power_of_India_s_Fintech_Stack-removebg-preview.png" alt="API & Bulk Payouts">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">API & Bulk Payouts</h3>
+                            <p class="card-text">Automate payouts programmatically with our powerful APIs.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/images (3).jfif" alt="Instant Pay">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Instant Pay</h3>
+                            <p class="card-text">Real-time payouts to bank accounts with instant processing.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/fc4ec7702b1536be401d97520df003ff.jpg" alt="Payout Links">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Payout Links</h3>
+                            <p class="card-text">Send money via simple links to vendors and partners.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/Payment method, credit card etc.jpeg" alt="Tax Payments">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Tax Payments</h3>
+                            <p class="card-text">Pay GST, TDS and other taxes easily with our tax solutions.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PAYMENT GATEWAY -->
+            <section class="payment-section" id="payment-gateway">
+                <div class="section-header">
+                    <h2 class="section-title">Start Business Banking</h2>
+                    <p class="section-description">Complete banking solutions to manage your business finances efficiently</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/Rectangle-105745-3.webp" alt="Current Account">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Current Account</h3>
+                            <p class="card-text">Zero-balance digital current account with powerful features.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/Delight Payment Success _ Free Webflow Component.jpeg" alt="Escrow Account">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Escrow Account</h3>
+                            <p class="card-text">Secure transactions with escrow for marketplace businesses.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/images (1).jfif" alt="Forex Management">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Forex Management</h3>
+                            <p class="card-text">International payments made easy with competitive rates.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/Ilustração_Desenhada_à_Mão_Para_Pagamento_Com_Cartão_De_Crédito_PNG___Pintado_à_Mão__Cartão_De_Crédito__Pagar_Imagem_PNG_e_PSD_Para_Download_Gratuito-removebg-preview.png" alt="Accounting Integrations">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Accounting Integrations</h3>
+                            <p class="card-text">Seamlessly integrate with popular accounting software.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PAYMENT BUTTON -->
+            <section class="payment-section" id="payment-button">
+                <div class="section-header">
+                    <h2 class="section-title">Automate Payroll</h2>
+                    <p class="section-description">Streamline your payroll process with our automated solutions</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/0ec478d61b6feef32883e43400825a0e.jpg" alt="Payroll for Startups">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Payroll for Startups</h3>
+                            <p class="card-text">Simple payroll for growing teams with minimal setup.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/Business_Vectors_-_Download_Free_High-Quality_Vectors_from_Freepik___Freepik-removebg-preview.png" alt="Payroll for CXOs">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Payroll for CXOs</h3>
+                            <p class="card-text">Executive compensation made easy with advanced features.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/b18190da7060b8abf87cc3edb7eeec1f.jpg" alt="Payroll for Enterprise">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Payroll for Enterprise</h3>
+                            <p class="card-text">Complete payroll automation at scale for large organizations.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PAYMENT LINKS -->
+            <section class="payment-section" id="payment-links">
+                <div class="section-header">
+                    <h2 class="section-title">Payment Links</h2>
+                    <p class="section-description">Create and share payment links instantly with anyone, anywhere</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/fc4ec7702b1536be401d97520df003ff.jpg" alt="Share Links">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Share Links</h3>
+                            <p class="card-text">Share payment links via email, SMS, WhatsApp, and more.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/fa859d802eeb217fc6c0b1674e0ec1f5.jpg" alt="Customize Links">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Customize Links</h3>
+                            <p class="card-text">Brand your payment links with your logo and colors.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-card">
+                        <div class="card-image">
+                            <img src="images/__Instant_Money__Instant_Impact__The_Power_of_India_s_Fintech_Stack-removebg-preview.png" alt="Track Payments">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Track Payments</h3>
+                            <p class="card-text">Monitor payment status and get real-time notifications.</p>
+                            <div class="card-action">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div class="unique-wrapper">
+
+    <!-- Header -->
+    <div class="unique-header-box">
+      <h1>Powering Every Industry.</h1>
+      <h1>Powering all disruptors.</h1>
+    </div>
+
+    <!-- Industry Tags -->
+    <div class="unique-industry-row" id="uniqueIndustryRow">
+      <div class="unique-industry-btn active" data-index="0">E-Commerce</div>
+      <div class="unique-industry-btn" data-index="1">Education</div>
+      <div class="unique-industry-btn" data-index="2">BFSI</div>
+      <div class="unique-industry-btn" data-index="3">SaaS</div>
+      <div class="unique-industry-btn" data-index="4">Freelancer</div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="unique-carousel-box" id="uniqueCarousel">
+
+      <!-- Slide 1 -->
+      <div class="unique-slide active" data-index="0" style="background-image:url('images/Rectangle-105745-3.webp')">
+        <div class="unique-slide-overlay"></div>
+        <div class="unique-slide-content">
+          <h1>Empower Your <span class="unique-highlight">E-commerce</span> Business</h1>
+          <p>Streamline payment management with a unified dashboard...</p>
+          <a href="#" class="unique-cta-btn">Get Started Today</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="unique-slide" data-index="1" style="background-image:url('images/images (1).jfif')">
+        <div class="unique-slide-overlay"></div>
+        <div class="unique-slide-content">
+          <h1>Transform <span class="unique-highlight">Education</span> Experiences</h1>
+          <p>Revolutionize learning with our educational platforms...</p>
+          <a href="#" class="unique-cta-btn">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="unique-slide" data-index="2" style="background-image:url('images/images (2).jfif')">
+        <div class="unique-slide-overlay"></div>
+        <div class="unique-slide-content">
+          <h1>Secure <span class="unique-highlight">BFSI</span> Solutions</h1>
+          <p>Deliver modern, secure financial services...</p>
+          <a href="#" class="unique-cta-btn">Explore Solutions</a>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="unique-slide" data-index="3" style="background-image:url('images/images (3).jfif')">
+        <div class="unique-slide-overlay"></div>
+        <div class="unique-slide-content">
+          <h1>Scale with <span class="unique-highlight">SaaS</span> Platforms</h1>
+          <p>Accelerate business growth with scalable solutions...</p>
+          <a href="#" class="unique-cta-btn">Discover More</a>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="unique-slide" data-index="4" style="background-image:url('images/download.jfif')">
+        <div class="unique-slide-overlay"></div>
+        <div class="unique-slide-content">
+          <h1>Empower <span class="unique-highlight">Freelancers</span></h1>
+          <p>Tools built to help freelancers work smarter...</p>
+          <a href="#" class="unique-cta-btn">Start Free Trial</a>
+        </div>
+      </div>
+
+      <!-- Dots -->
+      <div class="unique-dots-box" id="uniqueDotsBox"></div>
+
+    </div>
+  </div>
+
+<section class="pf-showcase">
+        <div class="pf-bg-shape pf-shape-1"></div>
+        <div class="pf-bg-shape pf-shape-2"></div>
+
+        <div class="pf-header">
+            <h2>Innovative Payment Solutions</h2>
+            <p>We have innovated at every instance, creating a disruption in the payment industry with cutting-edge technology and AI-powered solutions.</p>
+        </div>
+
+        <div class="pf-carousel-wrapper">
+            <div class="pf-carousel">
+                <div class="pf-track">
+                    <!-- Slide 1 -->
+                    <div class="pf-slide">
+                        <div class="pf-card">
+                            <div class="pf-badge">Most Popular</div>
+                            <div class="pf-card-header">
+                                <div class="pf-icon"><i class="fas fa-credit-card"></i></div>
+                                <h3 class="pf-title">Line of Credit</h3>
+                                <p class="pf-subtitle">Flexible credit line for new-age businesses</p>
+                            </div>
+                            <div class="pf-features">
+                                <ul class="pf-feature-list">
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">$50L</span> collateral-free credit</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">1.5%</span> monthly interest</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">No pre-closure</span> fees</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>Flexible repayment options</div></li>
+                                </ul>
+                            </div>
+                            <div class="pf-cta">
+                                <a href="#" class="pf-btn pf-btn-primary">Sign Up</a>
+                                <a href="#" class="pf-btn pf-btn-secondary">Know More</a>
+                            </div>
+                        </div>
+
+                        <div class="pf-card">
+                            <div class="pf-badge">AI-Powered</div>
+                            <div class="pf-card-header">
+                                <div class="pf-icon"><i class="fas fa-robot"></i></div>
+                                <h3 class="pf-title">Optimizer</h3>
+                                <p class="pf-subtitle">AI-powered payment gateway router</p>
+                            </div>
+                            <div class="pf-features">
+                                <ul class="pf-feature-list">
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">15+ gateways</span> for Aggregators</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">10% higher</span> success rates</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">15-30% lower</span> fees</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>Zero downtime guarantee</div></li>
+                                </ul>
+                            </div>
+                            <div class="pf-cta">
+                                <a href="#" class="pf-btn pf-btn-primary">Sign Up</a>
+                                <a href="#" class="pf-btn pf-btn-secondary">Know More</a>
+                            </div>
+                        </div>
+
+                        <div class="pf-card">
+                            <div class="pf-card-header">
+                                <div class="pf-icon"><i class="fas fa-bolt"></i></div>
+                                <h3 class="pf-title">Magic Checkout</h3>
+                                <p class="pf-subtitle">D2C checkout experience</p>
+                            </div>
+                            <div class="pf-features">
+                                <ul class="pf-feature-list">
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">40% higher</span> conversions</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">5X faster</span> checkout</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">50% fewer</span> RTOs</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>Seamless experience</div></li>
+                                </ul>
+                            </div>
+                            <div class="pf-cta">
+                                <a href="#" class="pf-btn pf-btn-primary">Sign Up</a>
+                                <a href="#" class="pf-btn pf-btn-secondary">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="pf-slide">
+                        <!-- Cards 4–6 (same structure) -->
+                        <div class="pf-card">
+                            <div class="pf-card-header">
+                                <div class="pf-icon"><i class="fas fa-globe"></i></div>
+                                <h3 class="pf-title">MoneySaver Export</h3>
+                                <p class="pf-subtitle">Global virtual accounts</p>
+                            </div>
+                            <div class="pf-features">
+                                <ul class="pf-feature-list">
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">50% lower</span> transfer charges</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">ACH/SWIFT/SEPA</span> support</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">200+ countries</span> coverage</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>Fast & secure transfers</div></li>
+                                </ul>
+                            </div>
+                            <div class="pf-cta">
+                                <a href="#" class="pf-btn pf-btn-primary">Sign Up</a>
+                                <a href="#" class="pf-btn pf-btn-secondary">Know More</a>
+                            </div>
+                        </div>
+
+                        <div class="pf-card">
+                            <div class="pf-badge">New</div>
+                            <div class="pf-card-header">
+                                <div class="pf-icon"><i class="fas fa-mobile-alt"></i></div>
+                                <h3 class="pf-title">Turnbo UPI</h3>
+                                <p class="pf-subtitle">India's fastest UPI solution</p>
+                            </div>
+                            <div class="pf-features">
+                                <ul class="pf-feature-list">
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">5X faster</span> checkout</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">10% higher</span> success rate</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>No app redirections</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>One-step integration</div></li>
+                                </ul>
+                            </div>
+                            <div class="pf-cta">
+                                <a href="#" class="pf-btn pf-btn-primary">Sign Up</a>
+                                <a href="#" class="pf-btn pf-btn-secondary">Know More</a>
+                            </div>
+                        </div>
+
+                        <div class="pf-card">
+                            <div class="pf-card-header">
+                                <div class="pf-icon"><i class="fas fa-exchange-alt"></i></div>
+                                <h3 class="pf-title">Payouts Pro</h3>
+                                <p class="pf-subtitle">Multi-bank routing solution</p>
+                            </div>
+                            <div class="pf-features">
+                                <ul class="pf-feature-list">
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>Real-time routing</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div><span class="pf-highlight">99.9%</span> success rate</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>No downtime disruptions</div></li>
+                                    <li class="pf-feature-item"><i class="fas fa-check"></i><div>Multi-bank support</div></li>
+                                </ul>
+                            </div>
+                            <div class="pf-cta">
+                                <a href="#" class="pf-btn pf-btn-primary">Sign Up</a>
+                                <a href="#" class="pf-btn pf-btn-secondary">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="pf-controls">
+                <button class="pf-arrow pf-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                <button class="pf-arrow pf-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <!-- Dots -->
+            <div class="pf-dots">
+                <div class="pf-dot active" data-slide="0"></div>
+                <div class="pf-dot" data-slide="1"></div>
+            </div>
+        </div>
+    </section>
+     
+    <!-- here also  -->
+    <!-- Background Shapes -->
+    <div class="devhub-bg-shapes">
+        <div class="devhub-shape devhub-shape-1"></div>
+        <div class="devhub-shape devhub-shape-2"></div>
+        <div class="devhub-shape devhub-shape-3"></div>
+        <div class="devhub-shape devhub-shape-4"></div>
+        <div class="devhub-shape devhub-shape-5"></div>
+    </div>
+
+    <!-- Language Scroll Bar -->
+    <div class="devhub-lang-wrapper">
+        <div class="devhub-lang-scroll">
+            <span class="devhub-pill">JavaScript</span>
+            <span class="devhub-pill">Node.js</span>
+            <span class="devhub-pill">React</span>
+            <span class="devhub-pill">Python</span>
+            <span class="devhub-pill">Django</span>
+            <span class="devhub-pill">Java</span>
+            <span class="devhub-pill">PHP</span>
+            <span class="devhub-pill">Ruby</span>
+            <span class="devhub-pill">Go</span>
+            <span class="devhub-pill">Flutter</span>
+            <span class="devhub-pill">Kotlin</span>
+            <span class="devhub-pill">Swift</span>
+            <!-- Duplicated for seamless loop -->
+            <span class="devhub-pill">JavaScript</span>
+            <span class="devhub-pill">Node.js</span>
+            <span class="devhub-pill">React</span>
+            <span class="devhub-pill">Python</span>
+            <span class="devhub-pill">Django</span>
+            <span class="devhub-pill">Java</span>
+            <span class="devhub-pill">PHP</span>
+            <span class="devhub-pill">Ruby</span>
+            <span class="devhub-pill">Go</span>
+            <span class="devhub-pill">Flutter</span>
+            <span class="devhub-pill">Kotlin</span>
+            <span class="devhub-pill">Swift</span>
+        </div>
+    </div>
+
+    <div class="devhub-container">
+        <header class="devhub-header">
+            <h1 class="devhub-logo">PayFlow</h1>
+            <p class="devhub-tagline">Built <span style="color: #2a4b8d;">for developers</span> by developers</p>
+        </header>
+
+        <h2 class="devhub-section-title">Developer Resources</h2>
+
+        <div class="devhub-grid">
+            <div class="devhub-card">
+                <h2><i class="fas fa-compass"></i> Navigation</h2>
+                <p>Find all popular platform sizes, plugins, and server integration options in our integration stack.</p>
+                <a href="#" class="devhub-btn devhub-pulse">View Documentation</a>
+            </div>
+
+            <div class="devhub-card">
+                <h2><i class="fas fa-code"></i> Software</h2>
+                <p>Comprehensive documentation to build powerful payment solutions with any reference.</p>
+                <a href="#" class="devhub-btn">Explore APIs</a>
+            </div>
+
+            <div class="devhub-card">
+                <h2><i class="fas fa-bell"></i> Webhooks</h2>
+                <p>Receive real-time notifications for all payment related transactions and events.</p>
+                <a href="#" class="devhub-btn">Configure Webhooks</a>
+            </div>
+        </div>
+
+        <div class="devhub-divider"></div>
+
+        <div class="devhub-code-section">
+            <h3 class="devhub-code-title"><i class="fas fa-terminal"></i> Try it out for yourself</h3>
+            <div class="devhub-code-block">
+                <div class="devhub-line"><span class="devhub-line-num">1</span> <span class="devhub-key">curl -X POST</span> <span class="devhub-string">https://api.payflow.com/v1/orders</span></div>
+                <div class="devhub-line"><span class="devhub-line-num">2</span> <span class="devhub-key">-u</span> <span class="devhub-value">YOUR_KEY_ID:YOUR_KEY_SECRET</span></div>
+                <div class="devhub-line"><span class="devhub-line-num">3</span> <span class="devhub-key">-H</span> <span class="devhub-string">"Content-Type: application/json"</span></div>
+                <div class="devhub-line"><span class="devhub-line-num">4</span> <span class="devhub-key">-d</span> <span class="devhub-string">'{'</span></div>
+                <div class="devhub-line"><span class="devhub-line-num">5</span>   <span class="devhub-string">"amount"</span>: <span class="devhub-value">50000</span>,</div>
+                <div class="devhub-line"><span class="devhub-line-num">6</span>   <span class="devhub-string">"currency"</span>: <span class="devhub-value">"INR"</span>,</div>
+                <div class="devhub-line"><span class="devhub-line-num">7</span>   <span class="devhub-string">"receipt"</span>: <span class="devhub-value">"order_123"</span></div>
+                <div class="devhub-line"><span class="devhub-line-num">8</span> <span class="devhub-string">}'</span></div>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    <!-- heheh again  -->
+
+
+      <section class="payall-section">
+        <div class="payall-bg-shape payall-bg-1"></div>
+        <div class="payall-bg-shape payall-bg-2"></div>
+        <div class="payall-bg-shape payall-bg-3"></div>
+
+        <div class="payall-header">
+            <span class="payall-subtitle">Complete Payment Solutions</span>
+            <h2>Everything You Need to Accept Payments</h2>
+            <p>From no-code tools to advanced payment solutions, we have everything to grow your business</p>
+        </div>
+
+        <div class="payall-carousel-wrapper">
+            <div class="payall-carousel">
+                <div class="payall-track">
+                    <!-- Slide 1 -->
+                    <div class="payall-slide">
+                        <div class="payall-card">
+                            <div class="payall-badge">Popular</div>
+                            <div class="payall-icon icon-blue"><i class="fas fa-link"></i></div>
+                            <h3>Payment Links</h3>
+                            <p>Accept payments instantly: Share links via email, text, or social media with zero setup required.</p>
+                            <div class="payall-features">
+                                <span class="payall-tag">Instant Setup</span>
+                                <span class="payall-tag">Share Anywhere</span>
+                                <span class="payall-tag">Track Payments</span>
+                            </div>
+                            <div class="payall-cta">
+                                <a href="#" class="payall-btn-primary">Sign Up &rarr; Know More</a>
+                                <div class="payall-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="payall-card">
+                            <div class="payall-icon icon-purple"><i class="fas fa-store"></i></div>
+                            <h3>Payment Pages</h3>
+                            <p>Accept payments without coding on a custom-branded store with your logo and colors.</p>
+                            <div class="payall-features">
+                                <span class="payall-tag">No Coding</span>
+                                <span class="payall-tag">Branded Store</span>
+                                <span class="payall-tag">Mobile Ready</span>
+                            </div>
+                            <div class="payall-cta">
+                                <a href="#" class="payall-btn-primary">Sign Up &rarr; Know More</a>
+                                <div class="payall-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="payall-card">
+                            <div class="payall-icon icon-pink"><i class="fas fa-mouse-pointer"></i></div>
+                            <h3>Payment Buttons</h3>
+                            <p>Effortlessly add a Pay Now button without any coding knowledge. Copy-paste simple code.</p>
+                            <div class="payall-features">
+                                <span class="payall-tag">One Click</span>
+                                <span class="payall-tag">Copy-Paste</span>
+                                <span class="payall-tag">Any Website</span>
+                            </div>
+                            <div class="payall-cta">
+                                <a href="#" class="payall-btn-primary">Sign Up &rarr; Know More</a>
+                                <div class="payall-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="payall-slide">
+                        <div class="payall-card">
+                            <div class="payall-badge">No-Code</div>
+                            <div class="payall-icon icon-orange"><i class="fas fa-file-invoice"></i></div>
+                            <h3>Invoices</h3>
+                            <p>Generate GST invoices, get instant payments from customers with automated reminders and tracking.</p>
+                            <div class="payall-features">
+                                <span class="payall-tag">GST Compliant</span>
+                                <span class="payall-tag">Instant Payments</span>
+                                <span class="payall-tag">Auto Reminders</span>
+                            </div>
+                            <div class="payall-cta">
+                                <a href="#" class="payall-btn-primary">Sign Up &rarr; Know More</a>
+                                <div class="payall-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="payall-card">
+                            <div class="payall-icon icon-teal"><i class="fas fa-qrcode"></i></div>
+                            <h3>QR Code</h3>
+                            <p>Grow your business with your own, branded multi-feature QR code that accepts all payment methods.</p>
+                            <div class="payall-features">
+                                <span class="payall-tag">Branded QR</span>
+                                <span class="payall-tag">Multi-Payment</span>
+                                <span class="payall-tag">Analytics</span>
+                            </div>
+                            <div class="payall-cta">
+                                <a href="#" class="payall-btn-primary">Sign Up &rarr; Know More</a>
+                                <div class="payall-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="payall-card">
+                            <div class="payall-badge">Auto</div>
+                            <div class="payall-icon icon-indigo"><i class="fas fa-sync-alt"></i></div>
+                            <h3>Subscriptions</h3>
+                            <p>Automate subscriptions with recurring payments via cards & UPI. Manage billing cycles effortlessly.</p>
+                            <div class="payall-features">
+                                <span class="payall-tag">Auto Billing</span>
+                                <span class="payall-tag">Cards & UPI</span>
+                                <span class="payall-tag">Flexible Cycles</span>
+                            </div>
+                            <div class="payall-cta">
+                                <a href="#" class="payall-btn-primary">Sign Up &rarr; Know More</a>
+                                <div class="payall-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payall-controls">
+                <button class="payall-nav-btn payall-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                <button class="payall-nav-btn payall-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <div class="payall-dots">
+                <div class="payall-dot active" data-slide="0"></div>
+                <div class="payall-dot" data-slide="1"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- new testi here  -->
+
+    <div class="testi-wrapper">
+    <h2 class="testi-title">PayFlow grows with <span>you!</span></h2>
+    <div class="testi-subtitle">Trusted by 150,000+ growing businesses</div>
+
+    <div class="testi-scroller">
+        <div class="testi-track">
+
+            <!-- First Set with Varied Styles -->
+            <div class="testi-card style-1">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&auto=format&fit=crop&q=80" alt="Sarah Johnson">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">Sarah Johnson</div>
+                    <div class="testi-role">CEO & Founder</div>
+                    <div class="testi-company">BloomTech Solutions</div>
+                </div>
+            </div>
+
+            <div class="testi-card style-2">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop&q=80" alt="Michael Chen">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">Michael Chen</div>
+                    <div class="testi-role">CFO</div>
+                    <div class="testi-company">Global Finance Partners</div>
+                </div>
+            </div>
+
+            <div class="testi-card style-3">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop&q=80" alt="Emma Rodriguez">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">Emma Rodriguez</div>
+                    <div class="testi-role">Operations Director</div>
+                    <div class="testi-company">Swift Logistics</div>
+                </div>
+            </div>
+
+            <div class="testi-card style-4">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80" alt="David Thompson">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">David Thompson</div>
+                    <div class="testi-role">Managing Partner</div>
+                    <div class="testi-company">Thompson & Associates</div>
+                </div>
+            </div>
+
+            <div class="testi-card style-5">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=80" alt="Priya Sharma">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">Priya Sharma</div>
+                    <div class="testi-role">Co-founder</div>
+                    <div class="testi-company">UrbanVault</div>
+                </div>
+            </div>
+
+            <!-- Duplicate Set for Seamless Loop -->
+            <div class="testi-card style-1">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&auto=format&fit=crop&q=80" alt="Sarah Johnson">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">Sarah Johnson</div>
+                    <div class="testi-role">CEO & Founder</div>
+                    <div class="testi-company">BloomTech Solutions</div>
+                </div>
+            </div>
+
+            <div class="testi-card style-2">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop&q=80" alt="Michael Chen">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">Michael Chen</div>
+                    <div class="testi-role">CFO</div>
+                    <div class="testi-company">Global Finance Partners</div>
+                </div>
+            </div>
+
+            <div class="testi-card style-3">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop&q=80" alt="Emma Rodriguez">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">Emma Rodriguez</div>
+                    <div class="testi-role">Operations Director</div>
+                    <div class="testi-company">Swift Logistics</div>
+                </div>
+            </div>
+
+            <div class="testi-card style-4">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80" alt="David Thompson">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">David Thompson</div>
+                    <div class="testi-role">Managing Partner</div>
+                    <div class="testi-company">Thompson & Associates</div>
+                </div>
+            </div>
+
+            <div class="testi-card style-5">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=80" alt="Priya Sharma">
+                <div class="testi-quote">“</div>
+                <div class="testi-overlay">
+                    <div class="testi-name">Priya Sharma</div>
+                    <div class="testi-role">Co-founder</div>
+                    <div class="testi-company">UrbanVault</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+ <!-- footer here  -->
+<footer>
+    <div class="footer-glow"></div>
+    <div class="footer-container" id="footerContent">
+        <!-- ACCEPT PAYMENTS -->
+        <div class="footer-column">
+            <h3>ACCEPT PAYMENTS</h3>
+            <ul>
+                <li><a href="#">Payment Aggregation</a></li>
+                <li><a href="#">Payment Gateway</a></li>
+                <li><a href="#">Payment Pages</a></li>
+                <li><a href="#">Payment Links</a></li>
+                <li><a href="#">Razorpay POS</a></li>
+                <li><a href="#">QR Codes</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#">Smart Collect</a></li>
+                <li><a href="#">Other</a></li>
+                <li><a href="#">Instant Settlements</a></li>
+            </ul>
+        </div>
+
+        <!-- BANKING PLUS & PAYROLL -->
+        <div class="footer-column">
+            <h3>BANKING PLUS</h3>
+            <ul>
+                <li><a href="#">RazorpayX</a></li>
+                <li><a href="#">Source to pay</a></li>
+                <li><a href="#">Current Accounts</a></li>
+                <li><a href="#">Payouts</a></li>
+                <li><a href="#">Payout Links</a></li>
+                <li><a href="#">Corporate Credit Card</a></li>
+            </ul>
+            <h3>PAYROLL</h3>
+            <ul>
+                <li><a href="#">Razorpay Payroll</a></li>
+            </ul>
+        </div>
+
+        <!-- MORE & PARTNER -->
+        <div class="footer-column">
+            <h3>MORE</h3>
+            <ul>
+                <li><a href="#">Route</a></li>
+                <li><a href="#">Invoices</a></li>
+                <li><a href="#">Professional Payments</a></li>
+                <li><a href="#">International Payments</a></li>
+                <li><a href="#">Flash Checkout</a></li>
+                <li><a href="#">101</a></li>
+                <li><a href="#">aPOS</a></li>
+                <li><a href="#">Checkout Demo</a></li>
+            </ul>
+            <h3>BECOME A PARTNER</h3>
+            <ul>
+                <li><a href="#">Refer and Earn</a></li>
+                <li><a href="#">Oblocating APIs</a></li>
+            </ul>
+        </div>
+
+        <!-- DEVELOPERS & RESOURCES -->
+        <div class="footer-column">
+            <h3>DEVELOPERS</h3>
+            <ul>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">API Reference</a></li>
+            </ul>
+            <h3>RESOURCES</h3>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Customer Stories</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Chargeback Guide</a></li>
+                <li><a href="#">Settlement Guide</a></li>
+            </ul>
+        </div>
+
+        <!-- SOLUTIONS & TOOLS -->
+        <div class="footer-column">
+            <h3>SOLUTIONS</h3>
+            <ul>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">E-commerce</a></li>
+                <li><a href="#">SaaS</a></li>
+                <li><a href="#">Other Industries</a></li>
+            </ul>
+            <h3>FREE TOOLS</h3>
+            <ul>
+                <li><a href="#">GST Calculator</a></li>
+                <li><a href="#">GST Number Search</a></li>
+                <li><a href="#">GST Search by PAN</a></li>
+                <li><a href="#">ROI Calculator</a></li>
+                <li><a href="#">GSTR Calculator</a></li>
+                <li><a href="#">EBITDA Calculator</a></li>
+            </ul>
+        </div>
+
+        <!-- COMPANY & HELP -->
+        <div class="footer-column">
+            <h3>COMPANY</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Offline Referral</a></li>
+                <li><a href="#">Responsible Disclosure</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">White papers</a></li>
+                <li><a href="#">Corporate Information</a></li>
+            </ul>
+            <h3>HELP & SUPPORT</h3>
+            <ul>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Knowledge base</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-logo">Razorpay</div>
+        <div class="footer-address">
+            <p><strong>REGISTERED OFFICE ADDRESS</strong></p>
+            <p>Razorpay Software Private Limited,</p>
+            <p>1st Floor, SJR Cyber,</p>
+            <p>Laskar Hosur Road, Adugodi,</p>
+            <p>Bengaluru, Karnataka 560030</p>
+            <p>CIN: U72200KA2013PTC097389</p>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="copyright">&copy; 2025 Razorpay. All rights reserved.</div>
+        <div class="disclaimer">
+            <p>Payment aggregation services provided by Razorpay Software Private Limited - An RBI Authorised Online Payment Aggregator</p>
+            <p>Razorpay Services Limited Primary Home and Razorpay Software Services Limited (Lex BG) Automated Centre Payment Aggregator</p>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    
+</footer>
+
+
+  
+
+    <!-- footere is here  -->
+
+    <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+
+
+  </body>
+</html>
